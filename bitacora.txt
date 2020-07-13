@@ -1,0 +1,10 @@
+	Ideas para implementar en el desarrollo del juego lupin (minimal)
+
+ 1) Implementar una factoria de actores (amigo,enemigo) y otra factoria de objetos (llave, puertas y placas)
+ 2) usar el patron singleton para instanciar sólo una vez a lupin, (se podria contemplar también para perro, puerta, llave y placa).
+ 3) crear metodos getters de las posiciones de la llave, puerta, placa y perro.
+ 4) crear una clase (abstract o interface) que tenga el metodo [verificarMovimient], el cual se va a instanciar en la boveda y va 
+	a verificar que lupin y los perros no se salgan de los límites establecidos.
+ 5) Hacer uso del patrón prototype para clonar obtejos de tipo llave, puerta, placa y perro, pero cambiando el valor inicial.
+ 7) usar patrón observer para establecer que los perros se van a mover si y sólo si lupin se mueve.
+SSSSS
